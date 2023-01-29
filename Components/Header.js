@@ -4,7 +4,7 @@ import React from 'react'
 
 const Header = () => {
     return (
-        <header className='sticky top-0 z-50 grid grid-cols-3 bg-white-300 shadow-md '>
+        <header className='sticky top-0 z-50 grid grid-cols-3 bg-white shadow-md '>
             {/* Left Side div for logo */}
             <div className=' flex justify-start w-full relative '>
                 <img src="https://download.logo.wine/logo/Airbnb/Airbnb-Logo.wine.png"
