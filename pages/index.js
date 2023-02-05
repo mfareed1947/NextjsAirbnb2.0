@@ -5,6 +5,9 @@ import { Inter } from '@next/font/google'
 import Header from '../Components/Header'
 import SmallCard from '../Components/SmallCard'
 import MediumCard from '../Components/MediumCard'
+import Banner from '../Components/Banner'
+import LargeCard from '../Components/LargeCard'
+import Footer from '../Components/Footer'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -20,6 +23,7 @@ export default function Home({ exploreData, exploreCardsData }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <Banner />
       <main className='max-w-7xl mx-auto px-8 sm:px-16'>
         <section className='pt-6'>
           <h2 className='text-4xl font-semibold pb-5'>Explore Nearby</h2>
@@ -48,9 +52,14 @@ export default function Home({ exploreData, exploreCardsData }) {
             ))}
           </div>
         </section>
-
+        <LargeCard
+          img={"https://a0.muscache.com/im/pictures/2da67c1c-0c61-4629-8798-1d4de1ac9291.jpg?im_w=1440"}
+          title="The Greats Outdoors"
+          desc='Wishlists curated by Airbnb'
+          btnText='Get inspired'
+        />
       </main>
-
+      <Footer />
     </>
   )
 }
