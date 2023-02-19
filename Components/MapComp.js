@@ -20,7 +20,7 @@ const MapComp = ({ SearchData }) => {
                 zoom: 11
             }}
             mapStyle='mapbox://styles/mfareed/clea6pf8c002g01mvydncvk4k'
-            mapboxAccessToken='pk.eyJ1IjoibWZhcmVlZCIsImEiOiJjbGVhNWwwejgwbXo4M3pvM253OWU2dHE2In0.DzgYEq_zlDYI-Gm03uo0NQ'
+            mapboxAccessToken={process.env.API_KEY}
             style={{ width: "100%", height: '100%' }}
 
         >
