@@ -17,7 +17,7 @@ const MapComp = ({ SearchData }) => {
                 height: "100%",
                 latitude: center.latitude,
                 longitude: center.longitude,
-                zoom: 14
+                zoom: 11
             }}
             mapStyle='mapbox://styles/mfareed/clea6pf8c002g01mvydncvk4k'
             mapboxAccessToken='pk.eyJ1IjoibWZhcmVlZCIsImEiOiJjbGVhNWwwejgwbXo4M3pvM253OWU2dHE2In0.DzgYEq_zlDYI-Gm03uo0NQ'
